@@ -99,21 +99,18 @@
 
 /* main section style */
 
-.main {
-  position: absolute;
-  width: 1440px;
-  height: 582px;
+.sec-1 {
+  position: relative;
+  margin: 0 auto;
 }
 
 .reason {
-  position: absolute;
   width: 1140px;
   height: 1395px;
-  left: 148px;
-  right: 152px;
-  top: 150px;
+  margin: 118px 150px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
+  position: relative;
 }
 
 .reason-container {
@@ -216,4 +213,65 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+/* Inspiration section */
+.inspiration-container {
+  width: 1140px;
+  height: 777px;
+  margin: 0px 150px 0px 150px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.inspire-title-content-container {
+  width: 852px;
+  height: 115px;
+  margin: 0px 144px 48px 144px;
+}
+
+.inspiration-title {
+  width: 852px;
+  height: 39px;
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.inspiration-content {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  width: 852px;
+  height: 52px;
+}
+
+.video {
+  width: 100%;
+  height: 70%;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframe {
+  width: 95%;
+  height: 89%;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
 }
