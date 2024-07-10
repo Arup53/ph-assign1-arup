@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+/* scroll style */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Reuseable styles */
 .button {
   width: 208px;
